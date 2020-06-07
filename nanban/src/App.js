@@ -1,12 +1,19 @@
-import React from 'react';
-import './App.css';
+import React, { useState } from 'react';
 
-function App() {
+import Layout from './hoc/Layout/Layout';
+// import HomePage from './components/Pages/Home/HomePage'
+import './App.css'
+
+const app = props => {
+
+  const [state, setState] = useState()
   return (
     <div className="App">
-      Welcome To Nanban
+      <Layout>
+        <p>Nanban Connect</p>
+      </Layout>
     </div>
   );
 }
 
-export default App;
+export default app;

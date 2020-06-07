@@ -1,0 +1,27 @@
+.ToggleButton{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    padding: 2px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    left: 10px;
+}
+
+.ToggleButton:active ,.ToggleButton:hover{
+    background-color: rgb(37, 37, 36);
+}
+
+.ToggleButton div{
+    width: 20px;
+    height: 3px;
+    background-color: #636362;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+@media(min-width: 500px){
+    .ToggleButton{
+        display: none;
+    }
+}
