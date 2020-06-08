@@ -1,11 +1,11 @@
 import React from 'react'
 
-import '../../../css/NanbanIntro.css'
+import '../../css/NanbanIntro.css'
 
 const NanbanIntro = props => {
     return(
         <div className="NanbanIntro">
-            <h2>NANBAN CONNECT</h2>
+            <h1>NANBAN CONNECT</h1>
 
             <p>My name is Nanban Connect. I am the fastest man alive. 
                One day I was stuck by lightening, and got some incredible powers.

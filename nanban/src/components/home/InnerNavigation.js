@@ -1,7 +1,7 @@
 import React from 'react'
-import NanbanIntro from '../NanbanIntro/NanbanIntro'
+import NanbanIntro from './NanbanIntro'
 
-import '../../../css/InnerNavigation.css'
+import '../../css/InnerNavigation.css'
 
 const InnerNavigation = props => {
     return (

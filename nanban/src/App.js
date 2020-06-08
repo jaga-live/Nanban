@@ -5,7 +5,7 @@ import Nav from './components/fixed/ToolBar/nav'
 
 //Style
 import './App.css'
-import InnerNavigation from './components/fixed/InnerNavigation/InnerNavigation';
+import InnerNavigation from './components/home/InnerNavigation';
 
 class App extends Component{
   render(){
