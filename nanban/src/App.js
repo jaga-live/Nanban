@@ -1,16 +1,17 @@
-import React from 'react';
+import React,{ Component} from 'react';
 
-import Layout from './hoc/Layout/Layout';
+//Components
+import Nav from './components/fixed/nav'
+
+//Style
 import './App.css'
 
-const app = props => {
-  return (
-    <div className="App">
-      <Layout>
-        <p>Nanban Connect</p>
-      </Layout>
-    </div>
-  );
+class App extends Component{
+  render(){
+    return(
+      <Nav />
+    )
+  }
 }
 
-export default app;
+export default App;
