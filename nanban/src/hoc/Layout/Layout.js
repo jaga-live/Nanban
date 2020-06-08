@@ -5,7 +5,7 @@ import Toolbar from '../../components/Navigation/ToolBar/ToolBar'
 import './Layout.css'
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer'
 
-const layout = props => {
+const Layout = props => {
 
     const [show, setState] = useState(false)
 
@@ -24,4 +24,4 @@ const layout = props => {
     )
 }
 
-export default layout
+export default Layout
