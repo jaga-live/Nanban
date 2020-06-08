@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Auxillary from '../../../hoc/Auxillary/Auxillary'
-import classes from './BackDrop.css'
+import './BackDrop.css'
 
 const backDrop = props => {
 
