@@ -1,0 +1,66 @@
+
+.student{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.student .button{
+    margin: 20px auto;
+    width: 100px;
+    height: 40px;
+    padding: 5px auto;
+    text-align: center;
+    background-color: rgb(62, 138, 47);
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 0 black;
+    border-radius: 20px;
+}
+
+
+.student .button p{
+    margin: 5px auto;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(231, 230, 228);
+}
+
+.student .flexible {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.student .flexible div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px;
+    width: 95%;
+    height: 200px;
+    background-color: rgb(154, 135, 95);
+    border-radius: 20px;
+}
+
+.student .flexible div .img{
+    width: 58px;
+    height: 55px;
+    margin: 10px;
+}
+
+@media(min-width: 709px){
+    .student .flexible{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .student .flexible div{
+        width: 31%;
+    }
+}

@@ -2,6 +2,7 @@ import React,{ Component} from 'react';
 
 //Components
 import Nav from './components/fixed/ToolBar/nav'
+import Student from './components/home/student'
 
 //Style
 import './App.css'
@@ -13,6 +14,7 @@ class App extends Component{
       <div>
         <Nav />
         <InnerNavigation />
+        <Student />
       </div>
     )
   }

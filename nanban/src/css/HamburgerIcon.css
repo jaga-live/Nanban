@@ -1,10 +1,11 @@
 .HamburgerIcon{
     position: absolute;
-    top: 3px;
+    top: 7px;
     right: 5px;
     width: 50px;
     padding: 5px;
     border-radius: 50%;
+    box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -13,9 +14,9 @@
 }
 
 .HamburgerIcon div{
-    width: 40px;
+    width: 30px;
     height: 3px;
-    margin: 10px auto;
+    margin: 7px auto;
     border-radius: 2px;
     background-color: white;
 }

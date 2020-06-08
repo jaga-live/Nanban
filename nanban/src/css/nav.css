@@ -4,7 +4,7 @@ body{
 
 .Container{
     width: 100%;
-    height:80px;
+    height:67px;
     background-color: rgba(202, 149, 140, 0.87);
 }
 
@@ -15,26 +15,27 @@ body{
     left: 10px;    
 }
 
-ul{
+.Container ul{
     display: none;
 }
 
-li{
+.Container li{
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
      padding: 15px;
     color: black;
     font-size: 17px;
-    margin-top: -10px;   
+    margin-top: -10px;  
+    cursor: pointer; 
 }
 
 @media(min-width: 709px){
-    ul{
+    .Container ul{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         flex-direction: row;
         float: right;
-}
+    }
 }
