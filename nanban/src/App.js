@@ -1,15 +1,19 @@
 import React,{ Component} from 'react';
 
 //Components
-import Nav from './components/fixed/nav'
+import Nav from './components/fixed/ToolBar/nav'
 
 //Style
 import './App.css'
+import InnerNavigation from './components/fixed/InnerNavigation/InnerNavigation';
 
 class App extends Component{
   render(){
     return(
-      <Nav />
+      <div>
+        <Nav />
+        <InnerNavigation />
+      </div>
     )
   }
 }
