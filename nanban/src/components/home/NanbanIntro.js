@@ -5,7 +5,7 @@ import '../../css/NanbanIntro.css'
 const NanbanIntro = props => {
     return(
         <div className="NanbanIntro">
-            <h1>NANBAN CONNECT</h1>
+            <h1>NANBAN </h1>
 
             <p>My name is Nanban Connect. I am the fastest man alive. 
                One day I was stuck by lightening, and got some incredible powers.
